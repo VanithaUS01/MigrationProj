@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "TodaysADF002"
+		},
+		"ADF2AzureSqlDatabase_password": {
+			"value": ""
+		},
+		"MySql1_password": {
+			"value": ""
+		},
+		"ADF2AzureSqlDatabase_properties_typeProperties_server": {
+			"value": "todayssqlserver01.database.windows.net"
+		},
+		"ADF2AzureSqlDatabase_properties_typeProperties_database": {
+			"value": "mypracticedbserver1"
+		},
+		"ADF2AzureSqlDatabase_properties_typeProperties_userName": {
+			"value": "Amin_001"
+		},
+		"MySql1_properties_typeProperties_server": {
+			"value": "localhost"
+		},
+		"MySql1_properties_typeProperties_database": {
+			"value": "practice_db"
+		},
+		"MySql1_properties_typeProperties_username": {
+			"value": "root"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
