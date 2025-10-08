@@ -1,0 +1,16 @@
+{
+	"name": "MySqlTabletoADF",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "MySql1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`sample_store_data - copy`"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
